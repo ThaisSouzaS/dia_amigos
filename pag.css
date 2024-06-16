@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body1 {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.header {
+    padding: 1rem;
+    background-color:#AFCAE3;
+    color: aliceblue;
+    text-align: center;
+}
+
+.nav {
+    background-color: #0076bd;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 0 1rem;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.nav ul li a:hover {
+    background: #cb7fbf;
+    border-radius: 5px;
+}
+
+.main {
+    flex: 1;
+    padding: 2rem;
+    background:  #cb7fbf;
+}
+
+.content {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+
+.h1 {
+    text-align: center;
+}
+
+.foto-container {
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 40hv;
+
+}
+
+.foto-redonda {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    -webkit-filter: drop-shadow(0px 0px 20px #7baddc);
+    filter: drop-shadow(0px 0px 20px #7baddc);
+}
+
+.table-responsive {
+    width: 100%;
+}
+
+.container {
+    width: 80% !important;
+    margin: auto;
+}
+
+.img {
+    -webkit-filter: drop-shadow(0px 0px 20px #7baddc);
+    filter: drop-shadow(0px 0px 20px #7baddc);
+}
+
+.img2 {
+    -webkit-filter: drop-shadow(0px 0px 20px #7baddc);
+    filter: drop-shadow(0px 0px 20px #7baddc);
+    position: relative;
+
+}
+
+.img3 {
+    -webkit-filter: drop-shadow(0px 0px 20px #7baddc);
+    filter: drop-shadow(0px 0px 20px #7baddc);
+    position: relative;
+}
+
+.img4 {
+    -webkit-filter: drop-shadow(0px 0px 20px #7baddc);
+    filter: drop-shadow(0px 0px 20px #7baddc);
+    position: relative;
+}
+
+.img5 {
+    -webkit-filter: drop-shadow(0px 0px 20px #7baddc);
+    filter: drop-shadow(0px 0px 20px #7baddc);
+    position: relative;
+}
+
+.table2 {
+    margin-left: 180px;
+}
+
+.video {
+    -webkit-filter: drop-shadow(0px 0px 20px #7baddc);
+    filter: drop-shadow(0px 0px 20px #7baddc);
+    position: relative;
+}
+
+.flor {
+    -webkit-filter: drop-shadow(0px 0px 20px #7baddc);
+    filter: drop-shadow(0px 0px 20px #7baddc);
+    position: relative;
+}
+
